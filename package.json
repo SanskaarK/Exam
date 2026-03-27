@@ -1,4 +1,5 @@
 {
+  "homepage": "https://SanskaarK/github.io/Exam",
   "name": "edustage-react",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run dist",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "react": "^19.2.4",
